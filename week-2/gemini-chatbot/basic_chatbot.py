@@ -14,7 +14,7 @@ prompts.read('prompts.env')
 
 # Set system prompt
 #system_prompt = prompts.get("SYSTEM_PROMPTS", "IT_HELPDESK")
-system_prompt = f"Summarize the following text about {prompts.get("TEMPLATES", "TOPIC")} in {prompts.get("TEMPLATES", "NUMBER")} bullet points:"
+system_prompt = f'Summarize the following text about {prompts.get("TEMPLATES", "TOPIC")} in {prompts.get("TEMPLATES", "NUMBER")} bullet points:'
 
 # Set up the app, including daisyui and tailwind for the chat component
 hdrs = (picolink, Script(src="https://cdn.tailwindcss.com"),
