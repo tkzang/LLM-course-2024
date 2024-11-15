@@ -11,7 +11,8 @@ from util.vector_search_utils import retrieve_relevant_resources
 from sentence_transformers import SentenceTransformer
 
 min_token_length = 30
-query = "What is SolrCloud"
+#query = "Who is Trey Grainger?"
+query = "What is RAG?"
 
 st.write("Initializing models")
 
@@ -34,6 +35,8 @@ uploaded_file = st.file_uploader(
     help="Upload a pdf file to chat to it with RAG",
     type='pdf'
 )
+
+print(f"uploaded file: {uploaded_file}")
 
 if uploaded_file is not None:
     print(f"Uploaded file: {uploaded_file}")
