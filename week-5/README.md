@@ -5,6 +5,8 @@ There are two main building blocks that you will work with:
 1. [Jupyter notebook](00_simple_local_rag.ipynb)
 2. [Streamlit UI](pdf_rag_ui.py), which implements the same functionality in a form of an interactive UI
 
+This notebook and code were tested with Python 3.12
+
 # Week's tasks
 You are expected to submit one task (if you like, by all means do and submit more!) from the list below.
 We will discuss these tasks in class, and you can ask your questions to better understand each of them.
@@ -38,9 +40,10 @@ pip install -U sentence-transformers
 pip install PyMuPDF
 ```
 # Streamlit UI setup
-Download model from Hugging Face:
+Download models from Hugging Face:
 ```
 huggingface-cli download sentence-transformers/all-mpnet-base-v2
+huggingface-cli download google/gemma-2b-it
 ```
 
 Download spacy's English model:
