@@ -1,6 +1,6 @@
 # Fine-tuning LLMs
 
-**Lecture slides:** [LLM-Course Lecture 4](https://github.com/Helsinki-NLP/LLM-course-2024/blob/main/week-2/week-4/LLM-Course%20Lecture%204.pdf) 
+**Lecture slides:** [LLM-Course Lecture 4](https://github.com/Helsinki-NLP/LLM-course-2024/blob/main/week-4/LLM-Course%20Lecture%204.pdf) 
 
 ## Lab Exercise
 
