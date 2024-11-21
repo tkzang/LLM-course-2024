@@ -5,7 +5,7 @@
 ## Lab Exercise
 
 1. Run the `supervised_finetuning.ipynb` notebook in Google Colab.
-2. Change the base model used (search for small >7B parameter models in Hugging Face).
+2. Change the base model used (search for small <7B parameter models in Hugging Face).
 3. Change the dataset used in fine-tuning.
 4. **Bonus challenge:**
    * Change the fine-tuning method from supervised fine-tuning to DPO.
