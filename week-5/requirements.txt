@@ -12,3 +12,4 @@ transformers==4.38.2
 jupyter
 #wheel
 # flash-attn
+stqdm

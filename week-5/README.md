@@ -51,4 +51,19 @@ Download spacy's English model:
 python -m spacy download en_core_web_sm
 ```
 
+# PDF RAG UI
+The PDF RAG Demo is a UI application, implemented using streamlit. The core code of RAG is otherwise the same as in the
+jupyter notebook.
+
+Here is how the UI looks like during the Preprocessing phase, triggered by uploading a pdf file.
 ![PDF RAG Demo](img/pdf_rag_ui_preprocessing.png)
+
+Here are two examples of answers we get from the vanilla LLM (Gemma) and from RAG-enhanced LLM (enhancement or
+grounding is done using the original RAG paper: "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks".
+
+![vanilla LLM answer](img/vanilla_llm_summarize_paper.png)
+
+![RAG LLM answer](img/rag_summarize_paper.png)
+
+Comparing these two outputs, we can see that RAG-enhanced LLM produces a much more nuanced answer about 
+the key contributions of the paper, while vanilla LLM talks about more generic concepts.
