@@ -64,3 +64,6 @@ grounding is done using the original RAG paper: "Retrieval-Augmented Generation 
 ![vanilla LLM answer](img/vanilla_llm_summarize_paper.png)
 
 ![RAG LLM answer](img/rag_summarize_paper.png)
+
+Comparing these two outputs, we can see that RAG-enhanced LLM produces a much more nuanced answer about 
+the key contributions of the paper, while vanilla LLM talks about more generic concepts.
