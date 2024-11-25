@@ -1,4 +1,3 @@
-
 from stqdm import stqdm
 import pandas as pd
 import numpy as np
@@ -19,7 +18,7 @@ def save_embeddings(pages_and_chunks: list[dict]) -> str:
     return embeddings_df_save_path
 
 # load embeddings into Tensor
-def embeddings_to_tensor(filename: str) -> torch.Tensor:
+def embeddings_to_tensor(filename: str) -> tuple[torch.Tensor, dict]:
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
     # Import texts and embedding df
@@ -35,4 +34,4 @@ def embeddings_to_tensor(filename: str) -> torch.Tensor:
     # Convert embeddings to torch tensor and send to device (note: NumPy arrays are float64, torch tensors are float32 by default)
     embeddings = torch.tensor(np.array(text_chunks_and_embedding_df["embedding"].tolist()), dtype=torch.float32).to(device)
 
-    return embeddings
+    return embeddings, text_chunks_and_embedding_df.to_dict('records')
