@@ -16,6 +16,10 @@ st.write("Initializing models")
 
 if not get_from_session(st, SESSION_VARS.LOADED_MODELS):
     nlp = spacy.load("en_core_web_sm") #English()
+
+    # uncomment this command to print the file location of the Spacy model
+    # st.write(nlp._path)
+
     # Add a sentencizer pipeline, see https://spacy.io/api/sentencizer/
     nlp.add_pipe("sentencizer")
     put_to_session(st, SESSION_VARS.NLP, nlp)
