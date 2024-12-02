@@ -6,11 +6,16 @@ from llama_index.core import Document, ServiceContext, Settings
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.core import Settings
 
+# Source: https://medium.com/@jitsins/query-complex-pdfs-in-natural-language-with-llmsherpa-ollama-llama3-8b-13b4782243de
 # To install:
 # 1. run https://stackoverflow.com/questions/52805115/certificate-verify-failed-unable-to-get-local-issuer-certificate
 # 2. install and run ollama:
 # ollama pull llama3
 # ollama run llama3
+# 3. Install docker and run:
+# docker pull ghcr.io/nlmatics/nlm-ingestor:latest
+# docker run -p 5010:5001 ghcr.io/nlmatics/nlm-ingestor:latest
+# This will expose the api link “http://localhost:5010/api/parseDocument?renderFormat=all” for you to utilize in your code.
 
 # Initialize LLm
 llm = Ollama(model="llama3", request_timeout=60.0)
