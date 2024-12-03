@@ -72,7 +72,7 @@ Challenges you encountered?
 **Week 6: Use cases and applications of LLMs**
 * Exploring various real-world applications of LLMs in NLP
 * Discussing the potential impact of LLMs on different industries
-* Hands-on lab: TBD
+* Hands-on lab: query tables and generate synthetic data
 
 **Week 7: Final report preparation**
 * Students work on their final reports, showcasing their understanding of the labs and the concepts learned.
