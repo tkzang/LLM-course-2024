@@ -22,4 +22,4 @@ dspy.settings.configure(lm=llm)
 # 2. Do all variants make sense?
 # 3. How to improve robustness of the method, for example, skip known abbreviations, like JFK or NBC.
 # 4. Can you test multiple LLMs and figure out which one is the best?
-# 5. Do the misspellings capture a variety of error types (phonetic, omission, transposition, repetition,
+# 5. Do the misspellings capture a variety of error types (phonetic, omission, transposition, repetition)?
