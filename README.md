@@ -22,15 +22,15 @@ This hands-on course delves into the world of Large Language Models (LLMs) and t
 
 ## Syllabus
 
-| Week | Dates     | Topic / Lecture                                                          | Format                               | Teacher |
-|------|-----------|--------------------------------------------------------------------------|--------------------------------------|---------|
-| 1    | 29/31.10. | [Introduction to Generative AI and Large Language Models (LLM)](week-1/) | 45 min lecture and 45 min coding lab | Aarne   |
-| 2    | 05/07.11. | [Using LLMs and Prompting-based approaches](week-2/)                     | 45 min lecture and 45 min coding lab | Aarne   |
-| 3    | 12/14.11. | [Evaluating LLMs](week-3/)                                               | 45 min lecture and 45 min coding lab | Jussi   |
-| 4    | 9/21.11.  | [Fine-tuning LLMs](week-4/)                                              | 45 min lecture and 45 min coding lab | Aarne   |
-| 5    | 26/28.11. | [Retrieval Augmented Generation (RAG)](week-5/)                          | 45 min lecture and 45 min coding lab | Dmitry  |
-| 6    | 03/05.12. | [Use cases and applications of LLMs](week-6/)                            | 45 min lecture and 45 min coding lab | Dmitry  |
-| 7    | 10/12.12. | [Group project presentations](week-7/)                                   | Student project presentations        | Aarne   |
+| Week | Dates     | Topic / Lecture                                                          | Format                                                                              | Teacher |
+|------|-----------|--------------------------------------------------------------------------|-------------------------------------------------------------------------------------|---------|
+| 1    | 29/31.10. | [Introduction to Generative AI and Large Language Models (LLM)](week-1/) | 45 min lecture and 45 min coding lab                                                | Aarne   |
+| 2    | 05/07.11. | [Using LLMs and Prompting-based approaches](week-2/)                     | 45 min lecture and 45 min coding lab                                                | Aarne   |
+| 3    | 12/14.11. | [Evaluating LLMs](week-3/)                                               | 45 min lecture and 45 min coding lab                                                | Jussi   |
+| 4    | 9/21.11.  | [Fine-tuning LLMs](week-4/)                                              | 45 min lecture and 45 min coding lab                                                | Aarne   |
+| 5    | 26/28.11. | [Retrieval Augmented Generation (RAG)](week-5/)                          | [45 min lecture](https://www.youtube.com/watch?v=1GtBArPD-UA) and 45 min coding lab | Dmitry  |
+| 6    | 03/05.12. | [Use cases and applications of LLMs](week-6/)                            | [45 min lecture](https://www.youtube.com/watch?v=8LkR35wNZnU) and 45 min coding lab                                            | Dmitry  |
+| 7    | 10/12.12. | [Group project presentations](week-7/)                                   | Student project presentations                                                       | Aarne   |
 
 
 ### Detailed Syllabus:
@@ -63,7 +63,7 @@ This hands-on course delves into the world of Large Language Models (LLMs) and t
 **Week 6: Use cases and applications of LLMs**
 * Exploring various real-world applications of LLMs in NLP
 * Discussing the potential impact of LLMs on different industries
-* Hands-on lab: TBD
+* Hands-on lab: query tables and generate synthetic data
 
 **Week 7: Group project presentations**
 * Students present their final group projects plan, showcasing their understanding and application of LLMs in NLP.
